@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
   ]
   # = MANIFEST =
 
-  s.test_files = s.files.select { |path| path =~ /^test\/(.*test.*\.rb/ }
+  s.test_files = s.files.select { |path| path =~ /^test\/.*test.*\.rb/ }
 
   s.add_dependency(%q<activerecord-jdbc-adapter>, [">= 1.0.0"])
 

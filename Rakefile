@@ -30,7 +30,7 @@ def gemspec_file
 end
 
 def gem_file
-  "#{name}-#{version}.gem"
+  "#{name}-#{version}*.gem"
 end
 
 def replace_header(head, header_name)
