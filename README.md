@@ -5,7 +5,9 @@ This is an ActiveRecord adapter for Intersystems CacheDB extracted
 from the activerecord-jdbc-adapter project.
 
 This project is currently looking for a maintainer, as I am not a
-CacheDB user and have no way of knowing if this code works.
+CacheDB user and have no way of knowing if this code works. From what
+I can tell of the activerecord-jdbc-adapter commit logs, most of this
+code was originally contributed by Ryan Bell.
 
 This project is also an example of the activerecord-jdbc-adapter
 adapter extension discovery mechanism, and how you might organize a
