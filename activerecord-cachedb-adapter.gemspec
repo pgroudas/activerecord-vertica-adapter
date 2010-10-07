@@ -20,7 +20,18 @@ Gem::Specification.new do |s|
 
   # = MANIFEST =
   s.files = %w[
-
+    LICENSE
+    README.md
+    Rakefile
+    activerecord-cachedb-adapter.gemspec
+    lib/active_record/connection_adapters/cachedb_adapter.rb
+    lib/activerecord-cachedb-adapter.rb
+    lib/arjdbc/cachedb.rb
+    lib/arjdbc/cachedb/adapter.rb
+    lib/arjdbc/cachedb/connection_methods.rb
+    lib/arjdbc/discover.rb
+    test/cachedb_simple_test.rb
+    test/db/cachedb.rb
   ]
   # = MANIFEST =
 
