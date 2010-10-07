@@ -14,8 +14,8 @@ adapter extension discovery mechanism, and how you might organize a
 gem for your custom database. In particular, note:
 
 - `lib/arjdbc/discover.rb`: This file gets loaded by
-  activerecord-jdbc-adapter, and where you register your driver.
-  Follow the conventions in that file, putting an 
+  activerecord-jdbc-adapter, and where you register your extension.
+  Follow the conventions in that file to declare it.
 - `lib/arjdbc/cachedb*`: Organize the ::ArJdbc::CacheDB code in here.
   Typically you'll have a `connection_methods.rb` file which creates a
   `cachedb_connection` method on ActiveRecord::Base as well as an
