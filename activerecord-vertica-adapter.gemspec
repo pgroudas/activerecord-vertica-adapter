@@ -24,14 +24,14 @@ Gem::Specification.new do |s|
     README.md
     Rakefile
     activerecord-vertica-adapter.gemspec
-    lib/active_record/connection_adapters/cachedb_adapter.rb
-    lib/activerecord-cachedb-adapter.rb
-    lib/arjdbc/cachedb.rb
-    lib/arjdbc/cachedb/adapter.rb
-    lib/arjdbc/cachedb/connection_methods.rb
+    lib/active_record/connection_adapters/vertica_adapter.rb
+    lib/activerecord-vertica-adapter.rb
+    lib/arjdbc/vertica.rb
+    lib/arjdbc/vertica/adapter.rb
+    lib/arjdbc/vertica/connection_methods.rb
     lib/arjdbc/discover.rb
-    test/cachedb_simple_test.rb
-    test/db/cachedb.rb
+    test/vertica_simple_test.rb
+    test/db/vertica.rb
   ]
   # = MANIFEST =
 

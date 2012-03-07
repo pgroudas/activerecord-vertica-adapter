@@ -1,5 +1,5 @@
 module ArJdbc
-  module CacheDb
+  module Vertica
     VERSION = "0.1"
   end
 end

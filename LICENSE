@@ -1,10 +1,10 @@
 Note that this license covers the code used to connect ActiveRecord to
-the Cache DB only, and not the Cache drivers or database itself, which
-must be obtained from www.intersystems.com.
+the Vertica only, and not the Vertica-JDBC drivers or database itself, which
+must be obtained from www.vertica.com.
 
 The MIT License
 
-Copyright (c) 2010 Nick Sieger
+Copyright (c) 2012 Paul Groudas
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

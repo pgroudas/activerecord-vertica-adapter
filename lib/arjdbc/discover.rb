@@ -2,9 +2,9 @@
 # that loads a custom module and adapter.
 
 module ::ArJdbc
-  extension :CacheDB do |name|
-    if name =~ /cache/i
-      require 'arjdbc/cachedb'
+  extension :Vertica do |name|
+    if name =~ /vertica/i
+      require 'arjdbc/vertica'
       true
     end
   end
