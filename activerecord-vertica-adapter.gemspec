@@ -1,19 +1,19 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name              = 'activerecord-cachedb-adapter'
+  s.name              = 'activerecord-vertica-adapter'
   s.version           = '0.1'
-  s.date              = '2010-10-07'
+  s.date              = '2012-03-05'
 
   s.platform = Gem::Platform.new([nil, "java", nil])
   s.rubyforge_project = %q{jruby-extras}
 
-  s.summary     = "ActiveRecord adapter for Intersystems CacheDb."
-  s.description = "ActiveRecord adapter for Intersystems CacheDb. Only for use with JRuby. Requires separate Cache JDBC driver."
+  s.summary     = "ActiveRecord adapter for Vertica."
+  s.description = "ActiveRecord adapter for Vertica. Only for use with JRuby. Requires separate Vertica JDBC driver."
 
-  s.authors  = ["Nick Sieger"]
-  s.email    = 'nick@nicksieger.com'
-  s.homepage = 'http://jruby-extras.rubyforge.org/activerecord-jdbc-adapter'
+  s.authors  = ["Paul Groudas"]
+  s.email    = 'paul@intentmedia.com'
+  s.homepage = 'http://'
   s.require_paths = %w[lib]
   s.rdoc_options = ["--charset=UTF-8"]
   s.extra_rdoc_files = %w[README.md LICENSE]
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     LICENSE
     README.md
     Rakefile
-    activerecord-cachedb-adapter.gemspec
+    activerecord-vertica-adapter.gemspec
     lib/active_record/connection_adapters/cachedb_adapter.rb
     lib/activerecord-cachedb-adapter.rb
     lib/arjdbc/cachedb.rb
