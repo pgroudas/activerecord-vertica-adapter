@@ -1,13 +1,8 @@
-activerecord-cachedb-adapter
+activerecord-vertica-adapter
 ===========================
 
-This is an ActiveRecord adapter for Intersystems CacheDB extracted
+This is an ActiveRecord adapter for Vertica extracted
 from the activerecord-jdbc-adapter project.
-
-This project is currently looking for a maintainer, as I am not a
-CacheDB user and have no way of knowing if this code works. From what
-I can tell of the activerecord-jdbc-adapter commit logs, most of this
-code was originally contributed by Ryan Bell.
 
 This project is also an example of the activerecord-jdbc-adapter
 adapter extension discovery mechanism, and how you might organize a
@@ -16,10 +11,10 @@ gem for your custom database. In particular, note:
 - `lib/arjdbc/discover.rb`: This file gets loaded by
   activerecord-jdbc-adapter, and where you register your extension.
   Follow the conventions in that file to declare it.
-- `lib/arjdbc/cachedb*`: Organize the ::ArJdbc::CacheDB code in here.
+- `lib/arjdbc/vertica*`: Organize the ::ArJdbc::Vertica code in here.
   Typically you'll have a `connection_methods.rb` file which creates a
-  `cachedb_connection` method on ActiveRecord::Base as well as an
+  `vertica_connection` method on ActiveRecord::Base as well as an
   `adapter.rb` file which contains most of the custom adapter code.
-- `lib/active_record/connection_adapters/cachedb_adapter.rb`: This
+- `lib/active_record/connection_adapters/vertica_adapter.rb`: This
   file is what allows ActiveRecord to load an adapter from its
   `adapter: cachedb` line in database.yml.
