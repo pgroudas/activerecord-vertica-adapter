@@ -1,8 +1,4 @@
-module ActiveRecord
- module ConnectionAdapters
-  AR_TO_JDBC_TYPES[:string] << lambda {|r| r['type_name'] =~ /varchar$/i} # For Vertica
- end
-end
+ActiveRecord::ConnectionAdapters::JdbcTypeConverter::AR_TO_JDBC_TYPES[:text] << lambda { |r| r['type_name'] =~ /varchar$/i }
 
 module ::ArJdbc
   module Vertica
