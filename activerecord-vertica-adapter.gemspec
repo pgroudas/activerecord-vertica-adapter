@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.authors  = ["Paul Groudas"]
   s.email    = 'paul@intentmedia.com'
-  s.homepage = 'http://'
+  s.homepage = 'https://github.com/pgroudas/activerecord-vertica-adapter'
   s.require_paths = %w[lib]
   s.rdoc_options = ["--charset=UTF-8"]
   s.extra_rdoc_files = %w[README.md LICENSE]
